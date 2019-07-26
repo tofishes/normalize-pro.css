@@ -1,6 +1,6 @@
 {
   "name": "normalize-pro.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Normalize-pos.css as a node packaged module",
   "style": "normalize-pro.css",
   "files": [
