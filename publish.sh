@@ -1,3 +1,3 @@
 npm version patch
-git push --tags
+git push
 npm publish --registry=https://registry.npmjs.org
