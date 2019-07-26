@@ -10,13 +10,18 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 /**
  * Remove default margin.
  */
-
-body {
+body, p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -88,6 +93,8 @@ template {
 
 a {
   background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /**
@@ -116,7 +123,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /**
@@ -406,7 +413,7 @@ textarea {
  */
 
 optgroup {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 /* Tables
@@ -419,6 +426,8 @@ optgroup {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  word-wrap: normal;
+  word-break: break-all;
 }
 
 td,

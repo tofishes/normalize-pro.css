@@ -1,16 +1,16 @@
 {
-  "name": "normalize.css",
-  "version": "3.0.2",
-  "description": "Normalize.css as a node packaged module",
-  "style": "normalize.css",
+  "name": "normalize-pro.css",
+  "version": "1.0.0",
+  "description": "Normalize-pos.css as a node packaged module",
+  "style": "normalize-pro.css",
   "files": [
-    "normalize.css"
+    "normalize-pro.css"
   ],
-  "homepage": "http://necolas.github.io/normalize.css",
+  "homepage": "https://github.com/tofishes/normalize-pro.css",
   "repository": {
     "type": "git",
-    "url": "git://github.com/necolas/normalize.css.git"
+    "url": "git://github.com/tofishes/normalize-pro.css.git"
   },
-  "author": "Nicolas Gallagher",
+  "author": "Nicolas Gallagher, ToFishes",
   "license": "MIT"
 }
